@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atribut</title>
+    <style>
+        /*contoh beberapa atribut dalam CSS*/
+        a[target="_self"] {
+            color: rgb(255, 60, 0);
+        }
+        p[title~="awal"]{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <a href="">contoh 1</a>
+    <a href="" target="_blank">contoh 1</a>
+    <a href="">contoh 1</a>
+    <a href="" target="_self">contoh 1</a>
+
+    <p title="awal dan">ini dipilih</p>
+    <p title="awaldan">ini tidak dipilih</p>
+</body>
+</html>
