@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100;
+    height: 100;
+    background-image: url(ramadhan.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 380px;
+    height: 350px;
+    background-color:bisque;
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px 2px;
+
+}
+.card{
+    animation: fadeup 1s ease-out;
+}
+@keyframes fadeup {
+    from {
+        opacity: 0;
+        transform: translate(-50%,0%);
+    }
+    to {
+        opacity: 1;
+        transform: translate(-50%,-50%);
+    }
+}
+#awal{
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: black;
+}
+#akhir{
+    position: absolute;
+    top: 40px;
+    font-size: 35px;
+}
+.card p{
+    font-size: 16px;
+    padding: 20px;
+    text-align: center;
+    line-height: 1 .5;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 150px;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.photo-card{
+    width: 380px;
+    height: 350px;
+    background-color: bisque;
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.photo-card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.photo-card{
+    animation: fadeup 1s ease-out;
+}
+@keyframes fadeup {
+    from {
+        opacity: 0;
+        transform: translate(-50%,0%);
+    }
+    to {
+        opacity: 1;
+        transform: translate(-50%,-50%);
+    }
+}
